@@ -22,4 +22,4 @@ jobs:
           requirements: requirements.txt
       
       - name: Install dependencies
-        run: pwd
+        run: pip install -r requirements.txt
